@@ -1,0 +1,5 @@
+mongoose.connect('mongodb+srv://alternateuser:Project566@senecaweb-7yi0b.mongodb.net/<dbname>?retryWrites=true&w=majority', {
+    useUnifiedTopology: true,
+    useNewUrlParser: true,
+    useCreateIndex: true
+});
